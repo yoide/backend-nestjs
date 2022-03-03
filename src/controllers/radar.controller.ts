@@ -6,7 +6,7 @@ export class RadarController {
     constructor(private readonly _radarService: RadarService) { }
 
     @Post()
-    infoRadar(): string {
+    infoRadar(): any {
         return this._radarService.infoRadar();
     }
 
